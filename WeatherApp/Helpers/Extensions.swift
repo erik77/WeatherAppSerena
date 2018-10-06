@@ -29,4 +29,10 @@ extension UIView {
     }
 }
 
+extension UIView {
+    func pinEdges() {
+        self.translatesAutoresizingMaskIntoConstraints = false
+        
+    }
+}
 

@@ -78,9 +78,15 @@ class WeatherView: UIView {
     
     func setupView() {
         addSubview(backgroundView)
+        addSubview(mainStackView)
         
         addConstraintsWithFormat(format: "H:|[v0]|", views: backgroundView)
         addConstraintsWithFormat(format: "V:|[v0]|", views: backgroundView)
+
+        addConstraintsWithFormat(format: "H:|[v0]|", views: mainStackView)
+        addConstraintsWithFormat(format: "V:|[v0]|", views: mainStackView)
+
+
     }
     
     
