@@ -59,9 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				DBA6CE6F21676FAA00175173 /* Helpers */,
+				DBA6CE9A2169CDEB00175173 /* Models */,
+				DBA6CE992169CC0200175173 /* Views */,
 				DBA6CE6C2167537700175173 /* Controllers */,
 				DBA6CE572167360700175173 /* AppDelegate.swift */,
-				DBA6CE992169CC0200175173 /* Views */,
 				DBA6CE612167360900175173 /* Assets.xcassets */,
 				DBA6CE632167360900175173 /* LaunchScreen.storyboard */,
 				DBA6CE662167360900175173 /* Info.plist */,
@@ -92,6 +93,13 @@
 				DBA6CE962169CA4C00175173 /* WeatherView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		DBA6CE9A2169CDEB00175173 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
