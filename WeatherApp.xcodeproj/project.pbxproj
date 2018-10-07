@@ -13,6 +13,7 @@
 		DBA6CE622167360900175173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA6CE612167360900175173 /* Assets.xcassets */; };
 		DBA6CE652167360900175173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA6CE632167360900175173 /* LaunchScreen.storyboard */; };
 		DBA6CE7121676FBB00175173 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6CE7021676FBB00175173 /* Extensions.swift */; };
+		DBA6CE972169CA4C00175173 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6CE962169CA4C00175173 /* WeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DBA6CE642167360900175173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBA6CE662167360900175173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBA6CE7021676FBB00175173 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DBA6CE962169CA4C00175173 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherView.swift; path = WeatherApp/WeatherView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		DBA6CE6D2167538500175173 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DBA6CE962169CA4C00175173 /* WeatherView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA6CE972169CA4C00175173 /* WeatherView.swift in Sources */,
 				DBA6CE602167360700175173 /* WeatherApp.xcdatamodeld in Sources */,
 				DBA6CE5A2167360700175173 /* WeatherMainController.swift in Sources */,
 				DBA6CE582167360700175173 /* AppDelegate.swift in Sources */,

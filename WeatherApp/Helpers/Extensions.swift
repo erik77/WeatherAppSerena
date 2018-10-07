@@ -30,8 +30,12 @@ extension UIView {
 }
 
 extension UIView {
-    func pinEdges() {
-        self.translatesAutoresizingMaskIntoConstraints = false
+    func pinEdges(to view: UIView) {
+        translatesAutoresizingMaskIntoConstraints = false
+        self.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+        self.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
+        self.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
+        self.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
         
     }
 }
